@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.cards{
+    text-align: center;
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin:30px;
+    border: 1px solid ;
+    
+}
+
+img{
+    width: 100%;
+    height: 250px;
+    border: 1px solid grey;
+}

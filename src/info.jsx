@@ -1,14 +1,34 @@
 
 import React from 'react';
+import img from './product.1.webp';
+import  './info.css';
 
-const Info = ({ image, title, price }) => {
+
+const info = () => {
   return (
-    <div className="info">
-      <img src={image} alt={title} />
-      <h2>{title}</h2>
-      <p>${price}</p>
+    <>
+    <div className='card'>
+    <img src={img} />
+    <h2 className="card-tittle">Mehsul</h2>
+    <p className="price">30$</p>
     </div>
-  );
-};
+    <div className='card'>
+    <img src={img} />
+    <h2 className="card-tittle">Mehsul</h2>
+    <p className="price">30$</p>
+    </div>
+    <div className='card'>
+    <img src={img} />
+    <h2 className="card-tittle">Mehsul</h2>
+    <p className="price">30$</p>
+    </div>
+    <div className='card'>
+    <img src={img} />
+    <h2 className="card-tittle">Mehsul</h2>
+    <p className="price">30$</p>
+    </div>
+    </>
+  )
+}
 
-export default Info;
+export default info
